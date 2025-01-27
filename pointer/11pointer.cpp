@@ -38,7 +38,7 @@
 //     int* p = &x;
 //     cout<<*p;//read key line 
 // }     
-//⭐with the help of derefrence  means star operator we can  update the value 
+//⭐with the help of derefrence  operator we can also means star operator we can  update the value 
 // how 
 // #include <iostream>
 // using namespace std;
