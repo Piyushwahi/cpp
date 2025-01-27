@@ -1,4 +1,4 @@
-// imp  1byte = 8bits     8biuts main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
+// imp  1byte = 8bits     8bytes main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
 // sizeof use to check bytes
 // #include <iostream> 
 // using namespace std;
