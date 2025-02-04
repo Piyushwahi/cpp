@@ -1,4 +1,4 @@
-// imp  1byte = 8bits     8biuts main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
+// imp  1byte = 8bits     8bits main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
 // sizeof use to check bytes
 // #include <iostream> 
 // using namespace std;
@@ -27,7 +27,6 @@
 //     bool *p = &x;
 //     cout<<&x<<endl<<p;
 //     // que is address ka kya karu main
-
 // }
 // 🥶DEREFRENCE operator == *STAR OPERATOR YYAAAD    good ffor acessing value 
 //key line ⭐⭐kisi pointer variable ka aga star * lga hai means pointer ka inside jo address hai uska  address pey jao  uski value  cout kara do for example 

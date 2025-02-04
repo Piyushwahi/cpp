@@ -1,9 +1,9 @@
-// same thing doing multiple times then create  a fuction    then call 
+// same thing doing multiple times then create  a fuction    then call  it 
 //void or int or char or float or bool nameoffunction(arguments int x int y){inside fucnt}  void means null means ki joo function uski value store nahi karta usa katham hona ak baad null 
 // right way        return_type == data type ==void or int or char   
 //int main sabsa phala yai function chalta hai only one time 
 // 4point  int nameoffuunction(int= x){
-//  return =kuch bhi jooo bhi value hai vo intger main return hogi agar function ka phala float hota to float main hoti }
+//  return =  jooo bhi value hai vo intger main return hogi agar function ka phala float hota to float main hoti }
 // #include <iostream>
 // using namespace std;
 // void greetings(){
@@ -23,7 +23,7 @@
 //     return x+y;
 // }
 // int main(){
-//     cout<<sum(4,5);//function call  intger value hogi bcoz function interger hai and return ka baad fuunction katham
+//     cout<<sum(4,5);//function call  intger value hogi bcoz function integer hai and return ka baad fuunction katham
 // }
 
 

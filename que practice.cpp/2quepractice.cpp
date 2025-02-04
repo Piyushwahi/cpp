@@ -286,21 +286,54 @@
 //     }  
 // }
 //it this que we convert array to acc to dec
-#include <iostream>
-using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    int array[n];
-    for(int i = 0 ; i<n;i++){
-        cin>>array[i];
-    }
-    for(int j = 0 ; j<n;j++){
-        if(array[0]<array[1]){
-            cout<<"array is not sorted";
-        }
-    }
-}
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int array[n];
+//     for(int i = 0 ; i<n;i++){
+//         cin>>array[i];
+//     }
+//     for(int j = 0 ; j<n;j++){
+//         if(array[0]<array[1]){
+//             cout<<"array is not sorted";
+//         }
+//     }
+// }
+
+// #include <iostream>
+// #include <climits>
+// using namespace std;
+// bool isPalindrome(int x) {
+//         int y = x;
+//         int final = 0 ;
+//         while(y){
+//             if(final>INT_MAX/10 ||final<INT_MIN/10) return false;//condition of 32 bits check okkk climits use  Return 0 if reversing x would cause overflow/underflow
+//             final *= 10;
+//             final += y%10;
+//             y /= 10;
+//         }
+//         if(final == x) return true;
+//         else return false;
+//     }
+// int main(){
+//     int x;
+//     cout<<"enter the value of";
+//     cin>>x;
+//     if(isPalindrome(x)){
+//         cout<<"true";
+
+//     }
+//     else cout<<"false";
+// }
+		
+
+
+
+
+
+
 
 
 
