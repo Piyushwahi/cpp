@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // imp  1byte = 8bits     8bits main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
+=======
+// imp  1byte = 8bits     8bytes main kitna store kar skta hai  2power8= 256    and 1 kb = 1024bytes      int ocuppied 4 byte    and char = 1 bytes  
+>>>>>>> b56ce8d0f164ece0dfa326c0993cb20e074702f0
 // sizeof use to check bytes
 // #include <iostream> 
 // using namespace std;
@@ -37,7 +41,7 @@
 //     int* p = &x;
 //     cout<<*p;//read key line 
 // }     
-//⭐with the help of derefrence  means star operator we can  update the value 
+//⭐with the help of derefrence  operator we can also means star operator we can  update the value 
 // how 
 // #include <iostream>
 // using namespace std;
