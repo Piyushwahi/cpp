@@ -104,49 +104,115 @@
 //que rotatate the given array by k given steps   basically last element go into first 
 //k = 2     arr = 1 2 3 4 5   ==   4  5 1 2 3
 // shifting number 
-#include <iostream>
-#include <vector>
-using namespace std ;
-void reversepart(int i , int j , vector<int>& array){ //pass by refrrence 
-    while(i<=j){
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-        i++;
-        j--;
-    }
-    cout<<endl;
+// #include <iostream>
+// #include <vector>
+// using namespace std ;
+// void reversepart(int i , int j , vector<int>& array){ //pass by refrrence 
+//     while(i<=j){
+//         int temp = array[i];
+//         array[i] = array[j];
+//         array[j] = temp;
+//         i++;
+//         j--;
+//     }
+//     cout<<endl;
     
-}
-void printreverse(vector<int> &arr){
-    for(int i = 0 ; i<arr.size();i++){
-        cout<<arr[i];
-    }
-}
+// }
+// void printreverse(vector<int> &arr){
+//     for(int i = 0 ; i<arr.size();i++){
+//         cout<<arr[i];
+//     }
+// }
 
 
-int main(){
-    int n ;
-    cout<<"lenth of array";
-    cin>>n;
-    vector<int> arr;
-    for(int i = 0 ; i<n;i++){
-        int x;
-        cin>>x;
-        arr.push_back(x);
-        // cin>>arr[i];
-    }
-    int k ;
-    cout<<"range of array change ";
-    cin>>k;
-    int n = arr.size(); n = 7  // last index 6 
-    //last part  reverse
-    if(k>n)  k = k%n;// remove similiar itration from my code k%n give me ,,,, itration k= 50   n =  7   means 1 time rotate  remainder give 1 
+// int main(){
+//     int n ;
+//     cout<<"lenth of array";
+//     cin>>n;
+//     vector<int> arr;
+//     for(int i = 0 ; i<n;i++){
+//         int x;
+//         cin>>x;
+//         arr.push_back(x);
+//         // cin>>arr[i];
+//     }
+//     int k ;
+//     cout<<"range of array change ";
+//     cin>>k;
+//     int n = arr.size(); n = 7  // last index 6 
+//     //last part  reverse
+//     if(k>n)  k = k%n;// remove similiar itration from my code k%n give me ,,,, itration k= 50   n =  7   means 1 time rotate  remainder give 1 
 
-    reversepart(0,n-k-1;arr );
-    //intial part reverse 
-    reversepart(n-k,n-1,arr);
-    reversepart(0,n-1,arr);
-    printreverse(arr);
-}
+//     reversepart(0,n-k-1;arr );
+//     //intial part reverse 
+//     reversepart(n-k,n-1,arr);
+//     reversepart(0,n-1,arr);
+//     printreverse(arr);
+// }
 //WhatsApp Image 2025-01-31 at 21.31.09_33ba529
+#include <iostream>
+using namespace std;
+
+class studentdata {
+    int n = 5, avg, sum;
+    char grade;
+    int marks[5];  
+
+public:
+    void getdata();
+    void calculate_avg();
+    void calculate_grade();
+    void print();
+};
+
+void studentdata::getdata() {
+    cout << "Enter " << n << " marks: ";
+    for (int i = 0; i < n; i++) {
+        cin >> marks[i];
+    }
+}
+
+void studentdata::calculate_avg() {
+    sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += marks[i];
+    }
+    avg = sum / n;
+}
+void studentdata::calculate_grade() {
+    if (avg > 90) grade = 'A';
+    else if (avg > 80) grade = 'B';
+    else if (avg > 50)grade = 'C';
+    else  grade = 'D';
+}
+
+void studentdata::print() {
+    int x ;
+    cin>>x;
+    switch (x)
+    {
+    case 1:
+    cout << "Average Marks: " << avg << endl;
+        break;
+    case 2:
+    cout << "Grade: " << grade << endl;
+        break;
+            
+    
+    default:
+        break;
+    }
+}
+
+int main() {
+    studentdata d;
+    int x;
+    cin>>x;
+    d.getdata();
+    d.calculate_avg();
+    d.calculate_grade();
+    d.print();
+
+    return 0;
+}
+

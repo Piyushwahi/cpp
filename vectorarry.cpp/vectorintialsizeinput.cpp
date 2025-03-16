@@ -54,4 +54,9 @@
 //         cout<<arr[i];
 //     }
 // }
+// leedcode31 que med but its hard 
+//  hint 1 first find privit indx then revese the  from index to lat element
+//3 red then swap just greater number from  that index number just  then break  
 
+
+    

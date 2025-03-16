@@ -54,7 +54,7 @@ int main(){
     arr.push_back(23);
 
     arr.pop_back();
-//    size  also update  buttt capacity not changing  means i write  arr[3 ] it can print t
+//    size  also update  buttt capac        ity not changing  means i write  arr[3 ] it can print t
    for(int i =0;i<arr.size();i++){
     cout<<arr[i]<<" ";
    }

@@ -84,8 +84,7 @@ void merge(vector<int>& arr, vector<int>& arr2, vector<int>& arr3) {
         } else {
             arr3[k--] = arr2[j--];
         }
-    }
-
+    } 
     // Copy remaining elements from arr
     while (i>=0) {
         arr3[k--] = arr[i--];
@@ -96,6 +95,7 @@ void merge(vector<int>& arr, vector<int>& arr2, vector<int>& arr3) {
         arr3[k--] = arr2[j--];
     }
 }
+        
 
 int main() {
     vector<int> arr = {2, 4, 5, 8};
