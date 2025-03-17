@@ -490,7 +490,7 @@
 
 //         cout<<endl;
 //    }}
-// ultimate que 1st soln  after  solve in notebook to check this 
+// ultimate que 1st soln  after  solve in notebook to check this  must req to solve in notebook 
 // #include <iostream>
 // using namespace std;
 // int main(){
