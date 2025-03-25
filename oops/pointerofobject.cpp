@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 using namespace std ;
 class cricketer{
     public:
@@ -20,11 +20,13 @@ void change( cricketer * c){
 }
 int main(){
     cricketer c1("virat kohli" , 25000,45.8);
+    // further of doing this  (*c).name now i will  do only  c->name = "rohit "
     // change(&c1);
     // cout<<c1.name;
     //similiar to intger jasa work kar raha tha
     // cricketer c2("rohit sharma",18000,59.6);
     //understant this
+    // a->b  a must be a pointer means  (*a).b
     cricketer * p1 = &c1;
     // cout<<(*p1).name<<endl; ab ya bhi kar sakta hu 
     cout<<p1->name<<endl;

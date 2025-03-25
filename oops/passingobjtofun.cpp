@@ -22,9 +22,6 @@ class car{ // what is car it is user defind data type which stores  2 string and
     car(){
         // default contructor 
     }
-
-
-
     car(string n , int p  ,int s , string t ){
         name = n;
         price = p;
@@ -73,7 +70,4 @@ int main(){
     c2.print(c2);
     c2.print(c3);
     return 0 ; 
-
-
-
-}
+}   
