@@ -461,7 +461,7 @@
 //     }
 //     }
 
-// ultimate que❤️ que no  que no 17 spiral qnlu varlid for given que 
+// ultimate que❤️ que no  que no 17 spiral qnlu valid for given que 
 //  some change it will be correct 
 // #include <iostream>
 // using namespace std;

@@ -1,5 +1,5 @@
 // //vector   ==array ki replacement ka liya bnaya gya tha      dynamically array
-// // ⭐ in array   one problem  array  size of array id fixed  int arr[5]  we add element in int arr[5] to int arry[6]
+// // ⭐ in array   one problem  array  size of array id fixed  int arr[5]  we can add element in int arr[5] to int arry[6]
 // // that why we use vector in aaray
 // //syntax  vector<int> arr     <> angular brackets  insertion or exterstion  in vector we can add value inside 
 // // basically vector ek new array bnata hai  or double capacity ka means 6 box intially after double 12 boxes

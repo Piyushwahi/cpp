@@ -141,7 +141,7 @@ int main(){
         cout<<endl;
     }
 }
-//other method we can  do by using only ncr without spaces 
+//other method we can  do by using only ncr  nCr-1 IS formula   without spaces 
 
 // how to check address of  int x = something     cout<<&x;
 
