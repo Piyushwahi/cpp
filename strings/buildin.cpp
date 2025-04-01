@@ -116,11 +116,13 @@ int main (){
     // int x = stoi(s);
     long long x = stoll(s);//string to long long 
     cout << "Type of x: " << typeid(x).name() << endl;
-    cout<<x;
+    cout<<x;      
+ 
 
 
 
-}
+} 
+i have a string and i want to update my last ondex with plau one by uaing str.back()  i can  do  why str.back() further of push.back  bcoz when we write str.back i will give me the refrencw of that character 
 
 
 
